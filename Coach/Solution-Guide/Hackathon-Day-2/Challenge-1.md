@@ -241,13 +241,15 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
 
 ### Task 3: Setup CI/CD Workflow
 
-1. From the Azure Portal Dashboard, click on Resource Groups from the Navigate panel to see the resource groups.
+1. From the Azure Portal Dashboard, click on **Resource Groups** from the Navigate panel to see the resource groups.
 
    ![](../media/2dgn9.png) 
    
-1. Select the **contoso-traders-rg<Deployment-ID>** resource group from the list.
+1. Select the **contoso-traders-rgXXXXXXX** resource group from the list.
 
    ![](../media/ex1-task1-13.png)  
+
+   >**Note** : XXXXXXX represents the Deployment ID, which can be found in the Environment section.
    
 1. Select the **productsdb** SQL database from the list of resources.
 
@@ -311,13 +313,15 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
 
 ## Task 4: Test the application and perform rolling updates
 
-1. Navigate to Azure Portal, and click on Resource Groups from the Navigate panel to see the resource groups.
+1. Navigate to Azure Portal, and click on **Resource Groups** from the Navigate panel to see the resource groups.
 
    ![](../media/2dgn9.png) 
    
-2. Select the **contoso-traders-rg<inject key="DeploymentID" enableCopy="false" />** resource group from the list.
+2. Select the **contoso-traders-rg(XXXXXXX)DeploymentID** resource group from the list.
 
    ![](../media/2dgn135.png) 
+
+   > **Note:** XXXXXXX represents the Deployment ID, which can be found in the Environment section.
    
 3. Select the **contoso-traders-ui2<inject key="DeploymentID" enableCopy="false" />** endpoint from the list of resources.
 
