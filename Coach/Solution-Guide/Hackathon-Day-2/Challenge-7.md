@@ -374,7 +374,7 @@ In this task, you'll enable Repository security advisories. You can use GitHub S
 
    - Title: **Improper Access Control in devsecops-2/src/App.js** ***(1)***
    - CVE identifier: **Request CVE ID later** ***(2)***
-   - Description: **Add** ***(3)*** the below-mentioned details in the description section.
+   - Description: **Add** ***(3)*** Replace the below-mentioned details in the description section.
    
    ```
    Impact
