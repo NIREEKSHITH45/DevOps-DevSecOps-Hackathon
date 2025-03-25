@@ -12,7 +12,11 @@ In this challenge, you will integrate Azure's monitoring tools—Azure Monitor a
 
 1. **Setup Monitoring Infrastructure:**
 
-   - Create and set up Application Insights for the Contoso traders application using Key vault.
+   - Create and set up Application Insights for the Contoso traders application using `monitoringinfra.bicep`.and update **DeploymentID** in the `monitoringinfra.parameters.json` file.
+
+     >**Note :** The `monitoringinfra.bicep` file is 
+     located at:
+     `C:\Workspaces\lab\DevOps-DevSecOps-Hackathon-lab-files`
 
 2. **Dashboard Creation:**
    - Design comprehensive dashboards for real-time visualization of application health and performance metrics.
