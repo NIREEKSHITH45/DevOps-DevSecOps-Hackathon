@@ -131,6 +131,8 @@ Now that you've assigned a built-in policy definition, you can do more with Azur
 
    ![](../media1/Ch8E1T2S7-3101.png)
 
+   >**Note :** It may take some time for the created policy definition to reflect.
+
 1. In **Restrict deployment to East US region** page, click on **Assign policy**. 
 
    ![](../media1/assign-custom-policy.png)
