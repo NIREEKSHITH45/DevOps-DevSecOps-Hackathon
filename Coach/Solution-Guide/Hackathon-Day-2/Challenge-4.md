@@ -33,16 +33,28 @@ This is the solution guide that contains all of the comprehensive, step-by-step 
 1. In the VS Code Terminal, run the following command to log in to your Azure account:
 
    ```
-   Connect-AzAccount
-   ```
-   >**Note**: Please use the below-mentioned credentials to login to Azure.
-   
-      - **Email/Username:** 
-      - **Password:** 
+   Connect-AzAccount -UseDeviceAuthentication
 
-      > **Note**: For **Email/Username** and **Password**, Navigate to **Environment(1)**, click on **Azure credentials**, and copy **Username (2)** and **Password (3)**.  
-            
-      ![](../media1/Active-image19.png)      
+   ```
+1. Go to **https://microsoft.com/devicelogin (1)** in the VM browser and copy the **code (2).** 
+
+      ![](../media/authenticate2.png)
+
+1. Paste the **code (1)** you copied earlier and click **Next (2)**.
+
+      ![](../media/authenticate3.png)
+
+1. Choose the account you are using.
+
+      ![](../media/authenticate4.png)
+
+1. Click on **Continue**.
+
+      ![](../media/authenticate5.png)
+
+1. After signing in, return to Visual Studio Code.
+
+      ![](../media/authenticate6.png)
       
 1. Set the Resource Group Name before running the deployment command. set the  **$RGname** as **contoso-traders-rg`<DeployementID>`**
 

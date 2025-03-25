@@ -61,7 +61,7 @@ In this task, you'll enable Repository security advisories. You can use GitHub S
      
 1. In the Open a draft security advisory tab, under the Advisory Details section, provide the following details:
 
-   - Title: **Improper Access Control in devsecops/src/TailwindTraders.Ui.Website/src/App.js** ***(1)***
+   - Title: **Improper Access Control in devsecops/src/ContosoTraders.Ui.Website/src/App.js** ***(1)***
    - CVE identifier: **Request CVE ID later** ***(2)***
    - Description: **Add** ***(3)*** replace the below-mentioned details in the description section.
    
