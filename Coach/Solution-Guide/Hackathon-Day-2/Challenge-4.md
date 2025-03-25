@@ -16,7 +16,7 @@ This is the solution guide that contains all of the comprehensive, step-by-step 
 
     ![](../media/ex4-task1-1.png)
 
-1. Navigate to **C:\Workspaces\lab\DevOps-DevSecOps-Hackathon-lab-files\ (1)** path ,  select **iac (2)** and click on **Select folder (3)**.
+1. Navigate to **C:\Workspaces\lab\DevOps-DevSecOps-Hackathon-lab-files (1)** path ,  select **iac (2)** and click on **Select folder (3)**.
 
     ![](../media/ad24.png)
 

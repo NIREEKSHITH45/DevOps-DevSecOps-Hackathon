@@ -214,7 +214,7 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
 7. Under **Actions variables / New variable** , enter the below-mentioned details and click on **Add variable** ***(3)***.
 
    - **Name**: Enter **DEPLOYMENTREGION** ***(1)***
-   - **Value**: Add the deployment region where you want to get the resources deployed. preferenced **eastus2** **(2)**
+   - **Value**: Add the deployment region where you want to get the resources deployed. preferenced **eastus2,uksouth,australiaeast** **(2)**
    
      ![](../media/ex1-task1-10.png)
 
@@ -241,13 +241,15 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
 
 ### Task 3: Setup CI/CD Workflow
 
-1. From the Azure Portal Dashboard, click on Resource Groups from the Navigate panel to see the resource groups.
+1. From the Azure Portal Dashboard, click on **Resource Groups** from the Navigate panel to see the resource groups.
 
    ![](../media/2dgn9.png) 
    
-1. Select the **contoso-traders-rg<Deployment-ID>** resource group from the list.
+1. Select the **contoso-traders-rgXXXXXXX** resource group from the list.
 
    ![](../media/ex1-task1-13.png)  
+
+   >**Note** : XXXXXXX represents the Deployment ID, which can be found in the Environment section.
    
 1. Select the **productsdb** SQL database from the list of resources.
 
@@ -311,13 +313,15 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
 
 ## Task 4: Test the application and perform rolling updates
 
-1. Navigate to Azure Portal, and click on Resource Groups from the Navigate panel to see the resource groups.
+1. Navigate to Azure Portal, and click on **Resource Groups** from the Navigate panel to see the resource groups.
 
    ![](../media/2dgn9.png) 
    
-2. Select the **contoso-traders-rg<inject key="DeploymentID" enableCopy="false" />** resource group from the list.
+2. Select the **contoso-traders-rg(XXXXXXX)DeploymentID** resource group from the list.
 
    ![](../media/2dgn135.png) 
+
+   > **Note:** XXXXXXX represents the Deployment ID, which can be found in the Environment section.
    
 3. Select the **contoso-traders-ui2<inject key="DeploymentID" enableCopy="false" />** endpoint from the list of resources.
 
@@ -330,6 +334,8 @@ In this task, you will login to an account on [GitHub](https://github.com) and u
    ![](../media/2dgn162.png) 
     
    The last task automated building and updating only one of the Docker images. In this task, we will update the workflow file with a more appropriate workflow for the structure of our repository. This task will end with    a file named `docker-publish.yml` that will rebuild and publish Docker images as their respective code is updated.
+
+   > **Note :** If you see the **Know your location** pop-up, click on **Block**.
 
 ## Success criteria:
 To complete this challenge successfully:
