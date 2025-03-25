@@ -25,7 +25,7 @@ The Contoso Traders application is hosted on Azure Kubernetes Service (AKS), and
 
    -  Utilize Azure Chaos Studio to assess the resilience of the Azure Kubernetes service where the Contoso Traders' application is hosted.
    - Using Chaos Studio, target the AKS cluster resource.
-   - Create an experiment and set up faults on AKS Chaos Mesh Pods Chaos for 5 minutes, and execute the experiment.
+   - Create an experiment and set up faults on AKS Chaos Mesh Pods Chaos(deprecated) for 5 minutes, and execute the experiment.
   
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
