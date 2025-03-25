@@ -21,6 +21,9 @@ You need to focus on completing the implementation of the below-mentioned GitHub
       >**Note:** This API key will be used as you move forward in the challenge. Keep it handy!
    
    - Use this OpenAI API key to create a GitHub Secret in your repository with the name `OPENAI_API_KEY`.
+
+   - Fork the repository `https://github.com/freeedcom/ai-codereviewer` and rename it to `ai-code-reviewer`.
+
    - Create a `.github/workflows/ai-code-review.yml` file in your repository to successfully implement `AI Code Reviewer` GitHub Action which provides intelligent feedback and suggestions on your pull requests.
   
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
@@ -32,7 +35,6 @@ You need to focus on completing the implementation of the below-mentioned GitHub
 
 2. **Configure and implement AI Security Check for Pull Requests:**
    - Use the previously created OpenAI API key to create a GitHub Secret in your repository with the name `OPENAI_TOKEN`.
-   - Create a new GitHub secret named `GH_TOKEN` with a GitHub Personal Access Token with the `repo` and `write:discussion` scopes enabled.
    - Create a new `./github/workflows/ai-security-check-for-pr.yml` workflow file in your repository to successfully implement `AI Security Check for Pull Requests` GitHub Action which analyzes the code in each pull request targeting the specified branch.
   
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
