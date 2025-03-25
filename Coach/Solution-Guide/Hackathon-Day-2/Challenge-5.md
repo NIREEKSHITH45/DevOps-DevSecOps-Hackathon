@@ -74,11 +74,11 @@ In this task, your objective is to incorporate Targets and establish an Experime
      
 1. Click on the **contoso-traders-aks<inject key="DeploymentID" enableCopy="false" />** **(1)** **Kubernetes service** instance, and from the drop-down for **Enable Targets** **(2)**, choose **Enable service-direct targets (All resources)** **(3)**.
 
-   ![](../media/2dgn99.png)
+   ![](../media/ch61u.png)
      
 1. Click on **Review + Enable**.
 
-   ![](../media/reviewenable.png)
+   ![](../media/ch62u.png)
 
 1. Then click on **Enable** to Enable service-direct targets. 
    
@@ -105,7 +105,7 @@ In this task, your objective is to incorporate Targets and establish an Experime
    
 1. On the **Permissions** page, leave the default selection and select **Next: Experiment designer >**.
 
-   ![](../media/E5T1S11.png)
+   ![](../media/ch63u.png)
  
 1. On the **Experiment designer** page select **+ Add action (1)** and choose **Add fault (2)**.
 
@@ -113,8 +113,10 @@ In this task, your objective is to incorporate Targets and establish an Experime
  
 1. On the **Add fault** page, select the following and select **Next: Target resources>** **(4)**.
    
-   - Faults: **AKS Chaos Mesh Pods Chaos** ***(1)***
+   - Faults: **AKS Chaos Mesh Pods Chaos(deprecated)** ***(1)***
+
    - Duration (minutes): **5** ***(2)***
+
    - jsonSpec: Leave it to default ***(3)***
      
      ![](../media/2dgn61.png)
@@ -151,7 +153,7 @@ In this task, your objective is to incorporate Targets and establish an Experime
       
 1. On the Azure Portal, navigate back to the Chaos experiment you created, **contoso-chaos-<inject key="DeploymentID" enableCopy="false" />** and click on **Start**.
   
-   ![](../media/2dgn108.png)
+   ![](../media/ch64u.png)
  
 1. Select **Ok** to **Start this experiment** pop-up.
 
@@ -163,7 +165,7 @@ In this task, your objective is to incorporate Targets and establish an Experime
  
 1. On the **Details** preview page, select **Action (1)** and view the complete details of the run on **Fault details** under **Successful targets (2)**.
  
-   ![](../media/2dgn110.png)
+   ![](../media/ch65u.png)
 
 ## Success criteria:
 To complete this challenge successfully:
