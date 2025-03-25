@@ -350,7 +350,7 @@ Here is the solution guide, which provides all the specific, step-by-step direct
 
 8. Navigate back to the **Test** branch that you created.
 
-    ![](../media/ex6-task1-25.png)
+    ![](../media/ex6-task1-25u.png)
 
 9. Select the **.github/workflows** folder and click on **ai-code-review.yml**.
 
