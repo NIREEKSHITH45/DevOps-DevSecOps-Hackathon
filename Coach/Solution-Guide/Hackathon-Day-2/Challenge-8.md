@@ -79,7 +79,7 @@ In this task, you will enforce compliance with Azure Policy by assigning a polic
 
 Now that you've assigned a built-in policy definition, you can do more with Azure Policy. Azure Policy enables organizations to enforce governance controls and compliance standards. This guide focuses on implementing a custom policy to restrict resource deployments to the East US region within a designated resource group. By leveraging Azure Policy, organizations can ensure compliance, mitigate risks, and streamline resource management effectively.
 
-1. Select **Definitions (1)** under **Authoring** in the left side of the Azure Policy page. Then click on ****+ Policy definition (2)** at the top of the page.
+1. Select **Definitions (1)** under **Authoring** in the left side of the Azure Policy page. Then click on **+ Policy definition (2)** at the top of the page.
 
    ![](../media/ex8-task1-11.png)
 
