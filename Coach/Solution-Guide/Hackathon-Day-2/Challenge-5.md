@@ -39,7 +39,7 @@ In this task, you'll create an Azure Load Testing instance and run a test using 
 
      ![](../media/ex5-task1-2.png)
 
-1. On the left-hand side pane, Expand **Tests** **(1)** then select **Tests** **(2)**, click on **+ Create** **(3)**, and select **Create a URL-based test (4)**.
+1. After the resource is created, click on Go to Resource. In the left-hand pane, expand **Tests (1)**, then select **Tests (2)**. Click on **+ Create (3)** and choose **Create a URL-based test (4)**.
 
    ![](../media/ex5-task1-3.png)
 
@@ -129,7 +129,7 @@ In this task, your objective is to incorporate Targets and establish an Experime
    
 1. On the **Review + create** page, click on **Create**.
     
-1. Navigate back to the **contoso-traders-aks<inject key="DeploymentID" enableCopy="false" />** container instance and select **Access control (IAM) (1)**, click on **+ Add (2)**, and select **Add role assignment (3)**. 
+1. Navigate back to the **contoso-traders-aksXXXXXX** container instance and select **Access control (IAM) (1)**, click on **+ Add (2)**, and select **Add role assignment (3)**. 
   
    ![](../media/2dgn121.png)
   
