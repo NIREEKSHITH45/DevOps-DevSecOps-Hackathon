@@ -28,25 +28,20 @@ In this task, you will use Dependabot to track the versions of the packages we u
 
    ![GitHub Dependabot alerts in the Security tab.](../media/cl3-t1-s3.png "GitHub Dependabot alerts")
 
-1. Sort the Dependabot alerts by `Package name`. Under the **Package** ***(1)*** dropdown menu, search for **node-forge** ***(2)*** by typing in the search box and selecting **node-forge** ***(3)*** vulnerability.
+1. Sort the Dependabot alerts by `Package name`. Under the **Package** ***(1)*** dropdown menu, search for **nanoid** ***(2)*** by typing in the search box and selecting **nanoid** ***(3)*** vulnerability.
 
-   ![Summary of the `handlebars` Dependabot alert in the list of Dependabot alerts.](../media/ex5-t3-node-forge.png "`handlebars` Dependabot alert")
+   ![Summary of the `handlebars` Dependabot alert in the list of Dependabot alerts.](../media/ch31u.png "`handlebars` Dependabot alert")
 
-    >**Note:** If **node-forge** is not available, please search for **`nanoid`** and follow the same steps.
+1. Select any of the `nanoid` Dependabot alert entries to see the alert details. After reviewing the alert, select **Review security update**.
 
-1. Select any of the `node-forge` Dependabot alert entries to see the alert details. After reviewing the alert, select **Review security update**.
-
-   ![The `handlebars` Dependabot alert detail.](../media/ex5-t3-reviewsu.png "Dependabot alert detail")
+   ![The `handlebars` Dependabot alert detail.](../media/ch32u.png "Dependabot alert detail")
    
    **Note:** If you see the Create Dependabot Security Update option, click on it. After it is created, select Review security update. 
 
-1. Navigate to the **Pull Requests** ***(1)*** tab, find the Dependabot security patch pull request ***(2)***, and merge it to your main branch.
+1. It will Navigate to the **Pull Requests** ***(1)*** tab, Click on **Merge pull request**, followed by **Confirm merge**.
 
-   ![List of Pull Requests.](../media/cl3-t1-s6.png "Pull Requests")
-   
-1. Click on **Merge pull request**, followed by **Confirm merge**. 
+   ![List of Pull Requests.](../media/ch33u.png "Pull Requests")
 
-   ![The Pull Request Merge Button in the Pull Request detail.](../media/ex5-t3-merge-pr.png "Pull Request Merge Button")
     
    >**Note**: In case you see any errors with the merge request, retry steps 4 to 6 by selecting any other Dependabot alert.
 
@@ -71,7 +66,7 @@ In this task, you'll explore how secret scanning works and how it generates aler
 
 1. From your GitHub repository, click on the **Settings** tab.
 
-   ![](../media/2dg110.png)
+   ![](../media/ch34u.png)
     
 1. Select **Code security** from the sidebar.
 
@@ -79,15 +74,15 @@ In this task, you'll explore how secret scanning works and how it generates aler
 
 1. Scroll down ,make sure **Secret Protection is enabled**.
 
-   ![](../media/ad9.png)
+   ![](../media/ch35u.png)
     
 1. Navigate back to **Code (1)** and click on the **src (2)** folder.
 
-   ![](../media/2dg112.png)    
+   ![](../media/ch36u.png)    
    
 1. Click on **Add file (1)** and select the **create new file (2)** option.
 
-   ![](../media/2dg113.png)    
+   ![](../media/ch37u.png)    
    
 1. Add a new file with the name **build.docker-compose.yml (1)**, add the code **(2)** mentioned below and click on **Commit changes (3)** at the right corner. Here, you'll expose the **application ID** of a service principal.
 
