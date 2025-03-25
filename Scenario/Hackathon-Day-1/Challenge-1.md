@@ -59,7 +59,8 @@ You are a DevOps engineer tasked with setting up a robust Continuous Integration
         - **SQLPASSWORD**: You need to enter any unique password with combination of Alphanumeric letters. Your password must contain characters from three of the following categories – English uppercase letters, English lowercase letters, numbers (0-9), and non-alphanumeric characters (!, $, #, %, etc.).
      
      - Create GitHub variables with the same name as mentioned below.   
-        - **DEPLOYMENTREGION**: Add you deployment region where you want to get the resources deployed.
+        - **DEPLOYMENTREGION**: Add the deployment region where you want to get the resources deployed. preferenced **eastus2,uksouth,australiaeast**
+      
         - **SUFFIX**: Create a variables to store the deployment ID which is **<inject key="DeploymentID" enableCopy="false" />**.
        
        >**Hint**: You can also find the deployment ID and the Azure AD password within the environment details tab of your integrated lab guide.
